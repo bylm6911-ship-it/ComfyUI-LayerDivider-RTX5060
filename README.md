@@ -1,7 +1,10 @@
 [EN](README.md) | [中文](README_ZH_CN.md)
 # ComfyUI LayerDivider
 **ComfyUI LayerDivider** is custom nodes that generating layered psd files inside ComfyUI, original implement is [mattyamonaca/layerdivider](https://github.com/mattyamonaca/layerdivider)
-
+4. Download the SAM model file `sam_vit_h_4b8939.pth` (2.5GB) from:
+   https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+   
+   Place it in `ComfyUI-LayerDivider/segment_model/` folder.
 ![image1](docs/layerdivider-color-base.png)
 ![image2](docs/layerdivider-seg-mask.png)
 https://github.com/jtydhr88/ComfyUI-LayerDivider/assets/860985/3ceb0638-1ed7-4e01-b231-03c4408c95e3
